@@ -10,7 +10,8 @@ public class SoundApp {
     }
 
     public static void printSound( Soundable soundable ) {
-        System.out.println();
+        // 동일한 인터페이스인 Soundable을 구현
+    	System.out.println(soundable.sound());
     }
     
 }
